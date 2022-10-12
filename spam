@@ -1,0 +1,11 @@
+#install 
+pkg update && pkg upgrade -y
+pkg install python -y 
+python -n pip install requests
+pkg install git -y
+git clone https://github.com/MrXsZ1/spam
+klo gagal https://github.com/Ryan101918/spam
+cd spam 
+#Run Script 
+git pull 
+python main.py
